@@ -1,5 +1,5 @@
 FROM debian:buster
-# docker image gbrayhan/debian10-php7.4:v1.1
+# docker image gbrayhan/debian10-php7.4:v1.0
 MAINTAINER Alejandro Guerrero (gbrayhan@gmail.com)
 
 RUN apt-get update && apt-get upgrade -y --no-install-recommends ; \
